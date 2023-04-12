@@ -13,6 +13,7 @@ RF24 RF24Radio(CE_PIN, CSN_PIN);
 const byte address[6] = "00001";
 
 // Determina se a placa irá receber ou enviar dados
+// 0 Envia, 1 Recebe
 const int RF24Type = 0;
 
 void RF24ReadMensage();
